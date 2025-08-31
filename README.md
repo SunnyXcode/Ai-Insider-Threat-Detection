@@ -16,11 +16,35 @@ The system leverages **multi-source CERT logs** (logon, device, email, file) to 
 - 🔹 **Feature engineering** — temporal patterns, email indicators, network centrality metrics  
 - 🔹 **Anomaly detection with Random Forest & Isolation Forest** — detects deviations from normal user behavior  
 - 🔹 **Unsupervised ML** — anomaly scoring & ranking without labeled data  
-- 🔹 **Interactive Streamlit dashboard** — visualize high-risk users, trends, and raw logs  
+- 🔹 **Interactive Streamlit dashboard** — visualize high-risk users, trends, and raw logs
 
+## 📊 Dashboard Features
+- Risky user ranking based on anomaly scores  
+- Per-user temporal activity trends  
+- Email & device usage insights  
+- Raw log exploration for deeper investigation
+
+## 🏠 Home
 <p align="center">
-  <img src="images/image1.png" alt="Streamlit Dashboard Screenshot" width="700"/>
+  <img src="images/image1.jpg" alt="Streamlit Dashboard Screenshot" width="700"/>
 </p>
+
+## ⚠️ Risky users
+<p align="center">
+  <img src="images/image2.jpg" alt="Streamlit Risky User Screenshot" width="700"/>
+</p>
+
+## 🧑‍💻User Feature
+<p align="center">
+  <img src="images/image3.jpg" alt="Streamlit Risky User Screenshot" width="700"/>
+  <img src="images/image4.jpg" alt="Streamlit Risky User Screenshot" width="700"/>
+</p>
+
+## 🧑‍💻Raw Logs
+<p align="center">
+  <img src="images/image5.jpg" alt="Streamlit Risky User Screenshot" width="700"/>
+</p>
+
 
 ---
 
@@ -41,22 +65,11 @@ The system leverages **multi-source CERT logs** (logon, device, email, file) to 
     - 📁 File access  
   - Preprocessed into **user-level, per-day features** for modeling.
 
----
-
-## 📊 Dashboard Features
-- Risky user ranking based on anomaly scores  
-- Per-user temporal activity trends  
-- Email & device usage insights  
-- Raw log exploration for deeper investigation  
-
-<p align="center">
-  <img src="images/risky_users.png" alt="Risky User Visualization" width="700"/>
-</p>
 
 ---
 
 ## ⚙️ Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/insider-threat-detection.git
-   cd insider-threat-detection
+   git clone https://github.com/SunnyXcode/Ai-Insider-Threat-Detection.git
+   cd Ai-Insider-Threat-Detectio
